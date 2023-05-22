@@ -10,7 +10,6 @@ import S from '../Home/Home.module.css';
 export default function Home() {
   return (
     <div className={S.fondo}>
-
       <div className={S.nav}>
         <Nav />
       </div>
