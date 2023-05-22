@@ -1,0 +1,512 @@
+body {
+  /* background-image: url('../img/teclado.jpg'); */
+  background-color: #111;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor .carousel {
+  width: 20%;
+  height: 90%;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #1704e8;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: 'Orbitron', sans-serif;
+  color: #17c3b2;
+  border-radius: 0px;
+  width: 200px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+button::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(15deg);
+  background: #05e0f8;
+  transition: 1.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+button:hover::before {
+  width: 205%;
+}
+
+button:hover {
+  color: #111;
+  box-shadow: #05e0f871 5px 5px 5px;
+  border: 2px solid #05e0f8;
+}
+
+.carousel h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #17c3b2;
+  font-size: 40px;
+}
+
+/* .carousel ul {
+  display: flex;
+  padding: 0;
+  width: 1000%;
+  margin-left: 10px;
+  animation: cambio 40s infinite alternate;
+  margin-bottom: 150px;
+}
+.carousel li {
+  width: 50%;
+  list-style: none;
+  margin-left: 80px;
+  margin-bottom: 150px;
+}
+.carousel img {
+  width: 100%;
+  border-radius: 50%;
+  border: solid transparent 2px;
+  border-radius: 10px;
+  margin-bottom: 150px;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  10% {
+    margin-left: -100%;
+  }
+  20% {
+    margin-left: -200%;
+  }
+  30% {
+    margin-left: -300%;
+  }
+  40% {
+    margin-left: -400%;
+  }
+  50% {
+    margin-left: -500%;
+  }
+  60% {
+    margin-left: -600%;
+  }
+  70% {
+    margin-left: -700%;
+  }
+  80% {
+    margin-left: -800%;
+  }
+  90% {
+    margin-left: -900%;
+  }
+  100% {
+    margin-left: -1000%;
+  }
+} */
+
+.contenedor .contentAll {
+  width: 210px;
+  margin: auto;
+  perspective: 800px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.contenedor .contentCarrousel {
+  width: 100%;
+  position: absolute;
+  animation: rotar 10s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.contenedor .contentCarrousel:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.contenedor .contentCarrousel figure {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px #05e0f8;
+  transition: all 300ms;
+  border-radius: 20px;
+}
+
+.contenedor .contentCarrousel figure:hover {
+  box-shadow: 0px 0px 0px 0px #05e0f8;
+  transition: all 300ms;
+}
+
+.contenedor .contentCarrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(2) {
+  transform: rotateY(40deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(3) {
+  transform: rotateY(80deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(4) {
+  transform: rotateY(120deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(5) {
+  transform: rotateY(160deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(6) {
+  transform: rotateY(200deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(7) {
+  transform: rotateY(240deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(8) {
+  transform: rotateY(280deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(9) {
+  transform: rotateY(320deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel figure:nth-child(10) {
+  transform: rotateY(360deg) translateZ(300px);
+}
+
+.contenedor .contentCarrousel img {
+  width: 100%;
+  transition: all 300ms;
+  border-radius: 20px;
+}
+
+.contenedor .contentCarrousel img:hover {
+  transform: scale(0.8);
+  transition: all 300ms;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.centerSkills {
+  width: 50%;
+  height: 100%;
+  margin-bottom: 500px;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: rgba(51, 51, 51, 0);
+  backdrop-filter: blur(7px);
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px #05e0f8;
+}
+
+.titleSoftware {
+  text-align: center;
+}
+
+.centerSkills h2 {
+  margin: 0;
+  padding: 0;
+  color: #05e0f8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.skillbox {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 20px 0;
+  margin: auto;
+}
+
+.skillbox p {
+  color: #05e0f8;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.porcetaje {
+  float: right;
+  position: relative;
+  top: -27px;
+}
+
+.skill {
+  background: #262626;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.skillLevel {
+  background: #00e5ff;
+  box-shadow: 0 10px 15px #05e0f8a1;
+  width: 100%;
+  height: 10px;
+}
+
+.centerSkills h4 {
+  color: #05e0f8;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.aclaracion {
+  font-size: 30px;
+  color: #05e0f8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.espacio {
+  width: 100%;
+  height: 10vw;
+}
+
+
+@media (max-width: 500px) {
+  .carousel {
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 150px;
+  }
+
+  .contenedor .contentAll {
+    width: 110px;
+
+    margin: auto;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .contenedor .contentCarrousel {
+    width: 100%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+  }
+
+  .contenedor .contentCarrousel:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+
+  .contenedor .contentCarrousel figure {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #05e0f8;
+    transition: all 300ms;
+    border-radius: 10px;
+  }
+
+  .contenedor .contentCarrousel figure:hover {
+    box-shadow: 0px 0px 0px 0px #05e0f8;
+    transition: all 300ms;
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel figure:nth-child(10) {
+    transform: rotateY(360deg) translateZ(150px);
+  }
+
+  .contenedor .contentCarrousel img {
+    width: 100%;
+    transition: all 300ms;
+    border-radius: 10px;
+  }
+
+  .contenedor .contentCarrousel img:hover {
+    transform: scale(0.8);
+    transition: all 300ms;
+  }
+
+  @keyframes rotar {
+    from {
+      transform: rotateY(0deg);
+    }
+
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+
+  .centerSkills {
+    width: 95%;
+    height: 100%;
+    margin-bottom: 500px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgba(51, 51, 51, 0);
+    backdrop-filter: blur(7px);
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px #05e0f8;
+  }
+
+  .centerSkills h2 {
+    margin: 0;
+    padding: 0;
+    color: #05e0f8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .skillbox {
+    box-sizing: border-box;
+    width: 90%;
+    height: 100%;
+    margin: 20px 0;
+    margin: auto;
+  }
+
+  .aclaracion {
+    font-size: 15px;
+    color: #05e0f8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .skillbox p {
+    color: #05e0f8;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .porcetaje {
+    float: right;
+    position: relative;
+    top: -27px;
+  }
+
+  .skill {
+    background: #262626;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .skillLevel {
+    background: #00e5ff;
+    box-shadow: 0 10px 15px #05e0f8a1;
+    width: 100%;
+    height: 10px;
+  }
+
+  .centerSkills h4 {
+    color: #05e0f8;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 30px;
+  }
+
+  .espacio {
+    width: 100%;
+    height: 10vw;
+  }
+
+
+}

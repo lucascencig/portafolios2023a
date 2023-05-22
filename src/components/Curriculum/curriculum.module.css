@@ -1,0 +1,283 @@
+.contenedor {
+  width: 100%;
+  height: 100%;
+
+}
+
+.curriculum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.contenedor .curriculum img {
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px #05e0f8;
+}
+
+.data {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  color: #fff;
+}
+
+
+.secciones {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.secciones p {
+  margin-left: 20px;
+  margin-top: 23px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.personalData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -30px;
+}
+
+.personalData p {
+  margin-top: -20px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: justify;
+  width: 100%;
+}
+
+.workExp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.workExp h3 {
+  margin-top: -20px;
+  margin-bottom: 25px;
+}
+
+.workExp p {
+  margin-top: -20px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: justify;
+  width: 100%;
+}
+
+.formation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.formation p {
+  margin-top: -20px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: justify;
+  width: 100%;
+}
+
+.contactData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.contactData p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -20px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: justify;
+  width: 100%;
+}
+
+.contactData u {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.data h2 {
+  font-size: 30px;
+  color: #05e0f8;
+
+}
+
+@media (max-width: 500px) {
+  .contenedor {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .curriculum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .contenedor .curriculum img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #05e0f8;
+  }
+
+  .data {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    color: #fff;
+  }
+
+  .secciones {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .secciones p {
+    margin-left: 20px;
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .personalData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -30px;
+  }
+
+  .personalData p {
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .workExp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -10px;
+  }
+
+  .workExp h3 {
+    margin-top: -20px;
+    margin-bottom: 25px;
+  }
+
+  .workExp p {
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -10px;
+  }
+
+  .formation p {
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .contactData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -10px;
+  }
+
+  .contactData p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .contactData u {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .data h2 {
+    font-size: 30px;
+    color: #05e0f8;
+
+  }
+
+}
