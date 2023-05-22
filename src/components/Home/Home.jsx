@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-// import Typical from 'react-typical'
+import Typical from 'react-typical'
 
 import Nav from '../NavMenu/NavMenu';
 
