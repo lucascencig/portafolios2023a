@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import S from '../Contact/contact.module.css';
 // import { render } from 'react-dom/cjs/react-dom.production.min';
-import Typical from 'react-typical'
+
 import Nav from '../NavMenu/NavMenu';
 import { useState } from 'react';
 import swal from 'sweetalert'
@@ -32,11 +32,7 @@ export default function Contact() {
       <div className={S.contenedor}>
         <div className={S.presentacion}>
           <span>¡Contact me!</span>
-          {/* <Typical
-            loop={Infinity}
-            wrapper="span"
-            steps={["¡Contact me!", 2000]}
-          /> */}
+
         </div>
         <div className={S.form}>
           {/* onSubmit={enviarEmail} */}

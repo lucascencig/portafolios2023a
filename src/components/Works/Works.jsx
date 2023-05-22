@@ -45,7 +45,7 @@ export default function Works() {
             <section id='#tateti' className={S.tateti}>
               <img src={tateti} alt="tateti" />
               <div>
-                <h3>Tic-Tac-Toe / Ta-Te-Ti </h3>
+                <h3>Tic-Tac-Toe</h3>
                 <h4>About the proyect:</h4>
                 <p>
                   For fun i made this single page application (SPA), the traditional game "Tic-Tac-Toe"

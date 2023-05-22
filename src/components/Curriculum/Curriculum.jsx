@@ -12,6 +12,9 @@ export default function Curriculum() {
       <Nav />
       <div className={S.curriculum}>
         <img src={fotocv} alt="fotocv" />
+        <button>
+          <a href="https://docs.google.com/document/d/13Aylp-49ej0K64JxxTOs3nOy8vc2qIPY/edit" target='_blank'>Download CV</a>
+        </button>
         <div className={S.data}>
           <div className={S.secciones}>
             <h2>Full name:</h2>
@@ -31,6 +34,11 @@ export default function Curriculum() {
 
           <div className={S.workExp}>
             <h2>Work experience:</h2>
+            <h3>Click Experts S.A.</h3>
+            <p>Development of applications for national and international clients.
+              Tool and website maintenance
+              Back-End and Front-End Development.</p>
+            <br />
             <h3>Web Freelance Developer</h3>
             <p>Front end web development independent (Freelance).</p>
           </div>

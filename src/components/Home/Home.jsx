@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 
 import Nav from '../NavMenu/NavMenu';
 
@@ -16,17 +16,15 @@ export default function Home() {
       {/* <img src={fondo} alt="" /> */}
       <div className={S.contenedor}>
         <div className={S.presentacion}>
-          <span>Lucas Cencig</span>
-          {/* <Typical
-            loop={Infinity}
-            wrapper="span"
-            steps={["Lucas Cencig", 2000]}
-          /> */}
-          <Typical
-            loop={Infinity}
-            wrapper="h3"
-            steps={["Full Stack Web Developer", 2000, "Specialized in", 2000, "Front-End", 2000]}
-          />
+          <h2 className={S.presentacionNombre}>Lucas Cencig</h2>
+          <h3 className={S.presentacionfull}>Full Stack Web Developer</h3>
+          <p className={S.presentacionspecial}>Specialized in</p>
+          <h3 className={S.presentacionfront}>Front-end</h3>
+          {/* <p className={S.presentacionNombre}>Lucas Cencig</p><br />
+          <p className={S.presentacionfull}>Full Stack Web Developer</p><br />
+          <p className={S.presentacionspecial}>Specialized in</p><br />
+          <p className={S.presentacionfront}>Front-End</p> */}
+
 
         </div >
 
