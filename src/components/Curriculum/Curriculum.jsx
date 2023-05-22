@@ -19,6 +19,7 @@ export default function Curriculum() {
           <div className={S.secciones}>
             <h2>Full name:</h2>
             <p>Lucas Ezequiel Cencig</p>
+
           </div>
 
 

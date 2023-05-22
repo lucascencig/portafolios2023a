@@ -33,6 +33,7 @@ export default function ImageGallery() {
     <div className={S.contenedor}>
       <Nav />
 
+
       <div className={S.contentAll}>
         <div className={S.contentCarrousel}>
           <figure>

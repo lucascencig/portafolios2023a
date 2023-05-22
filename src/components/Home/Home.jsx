@@ -14,6 +14,7 @@ export default function Home() {
         <Nav />
       </div>
 
+
       <div className={S.contenedor}>
         <div className={S.presentacion}>
           <h2 className={S.presentacionNombre}>Lucas Cencig</h2>

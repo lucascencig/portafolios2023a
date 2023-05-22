@@ -10,6 +10,7 @@ export default function Aboutme() {
     <div className={S.contenedor}>
       <Nav />
       <div className={S.aboutme}>
+
         <h3>About me</h3>
         <p className={S.text}>
           Some time ago, the creativity that Web developers gave to their designs today inspired me to a great extent and that is why I began my computer studies of programming and web development, with the intention of dedicating myself to what became my greatest personal passion. Thus, over time, I have been specializing and adapting to the most current styles on the market, in order to capture the interest of a greater volume of customers.

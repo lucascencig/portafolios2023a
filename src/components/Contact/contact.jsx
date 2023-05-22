@@ -21,6 +21,7 @@ export default function Contact() {
     swal({
       title: "Mensaje Enviado.",
       icon: "success",
+
       button: "Ok."
     })
   }
