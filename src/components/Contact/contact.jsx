@@ -11,6 +11,7 @@ import swal from 'sweetalert'
 
 export default function Contact() {
 
+
   // const sendEmail = (e) => {
   //   e.preventDefault();
   //   emailjs.sendForm('service_tw3uceq', 'template_1mtq7xn', e.target, 'PX2xz_c4-WOfDD5o8').then(res => console.log(res))
