@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
-import imagenUno from '../../utils/proyectouno.jpg';
+// import imagenUno from '../../utils/proyectouno.jpg';
 
 import imagenDos from '../../utils/proyectodos.jpg';
 
-import imagenTres from '../../utils/proyectotres.jpg';
+// import imagenTres from '../../utils/proyectotres.jpg';
 
-import imagenUnoSegundaImg from '../../utils/proyectounoSegundaimg.jpg';
+// import imagenUnoSegundaImg from '../../utils/proyectounoSegundaimg.jpg';
 
-import imagenUnoTerceraImg from '../../utils/proyectounoTerceraimg.jpg';
+// import imagenUnoTerceraImg from '../../utils/proyectounoTerceraimg.jpg';
 
 import mejorconsalud from '../../utils/mejorconsalud.jpg'
 
@@ -20,6 +20,8 @@ import mtpPro from '../../utils/mtpPro.jpg'
 import backendProject from '../../utils/backendProject.jpg'
 
 import standararidos from '../../utils/standarAridos.jpg'
+
+import calculator from '../../utils/calculator.jpg'
 
 import portada from '../../utils/portada.jpg'
 import Nav from '../NavMenu/NavMenu';
@@ -70,6 +72,39 @@ export default function Works() {
                   <a
                     href="https://github.com/lucascencig/tateti"
                     target="_blank"
+                    rel='noreferrer'
+                  >
+                    Repository in GitHub
+                  </a>
+                </button>
+              </div>
+            </section>
+
+            <section id='#calculator' className={S.tateti}>
+              <img src={calculator} alt="calculator" />
+              <div>
+                <h3>Simple-Calculator</h3>
+                <h4>About the proyect:</h4>
+                <p>
+                  Just for fun i made this project, its a simple calculator made with Reactjs.
+                  <br />
+                  <p className={S.tech}>
+                    <u>Technologies Used:</u>REACTJS, CSS, WATERCSS.
+                  </p>
+                </p>
+              </div>
+
+              <div className={S.botones}>
+                <button>
+                  <a href="https://simple-calculator-three-gamma.vercel.app/" target='_blank' rel='noreferrer'>
+                    See this project
+                  </a>
+                </button>
+                <button>
+                  <a
+                    href="https://github.com/lucascencig/Simple-Calculator"
+                    target='_blank'
+                    rel='noreferrer'
                   >
                     Repository in GitHub
                   </a>
@@ -97,7 +132,7 @@ export default function Works() {
 
               <div className={S.botones}>
                 <button>
-                  <a href="https://mtp-pro.vercel.app/">
+                  <a href="https://mtp-pro.vercel.app/" target='_blank' rel='noreferrer'>
                     See this project
                   </a>
                 </button>
@@ -149,7 +184,7 @@ export default function Works() {
 
               <div className={S.botones}>
                 <button>
-                  <a href="https://club-henry.vercel.app/" target="_blank">
+                  <a href="https://club-henry.vercel.app/" target="_blank" rel='noreferrer'>
                     See this project
                   </a>
                 </button>
@@ -157,6 +192,7 @@ export default function Works() {
                   <a
                     href="https://github.com/matias183/FrontHenryClub"
                     target="_blank"
+                    rel='noreferrer'
                   >
                     Repository in GitHub
                   </a>
@@ -194,6 +230,7 @@ export default function Works() {
                   <a
                     href="https://github.com/lucascencig/App-Countries"
                     target="_blank"
+                    rel='noreferrer'
                   >
                     Repository in GitHub
                   </a>
@@ -217,7 +254,7 @@ export default function Works() {
 
               <div className={S.botones}>
                 <button>
-                  <a href="https://www.standararidos.com/" target="_blank">
+                  <a href="https://www.standararidos.com/" target="_blank" rel='noreferrer'>
                     See this project
                   </a>
                 </button>
@@ -225,6 +262,7 @@ export default function Works() {
                   <a
                     href="https://github.com/Jimmy2414/standararidos"
                     target="_blank"
+                    rel='noreferrer'
                   >
                     Repository in GitHub
                   </a>
@@ -248,7 +286,7 @@ export default function Works() {
 
               <div className={S.botones}>
                 <button>
-                  <a href="https://frontend-dev-challenge-kappa.vercel.app/" target="_blank">
+                  <a href="https://frontend-dev-challenge-kappa.vercel.app/" target="_blank" rel='noreferrer'>
                     See this project
                   </a>
                 </button>
@@ -256,6 +294,7 @@ export default function Works() {
                   <a
                     href="https://github.com/lucascencig/frontend-dev-challenge"
                     target="_blank"
+                    rel='noreferrer'
                   >
                     Repository in GitHub
                   </a>
