@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-// import Typical from 'react-typical'
+
 
 import Nav from '../NavMenu/NavMenu';
 
@@ -13,18 +13,13 @@ export default function Home() {
       <div className={S.nav}>
         <Nav />
       </div>
-      {/* <img src={fondo} alt="" /> */}
+
       <div className={S.contenedor}>
         <div className={S.presentacion}>
           <h2 className={S.presentacionNombre}>Lucas Cencig</h2>
           <h3 className={S.presentacionfull}>Full Stack Web Developer</h3>
           <p className={S.presentacionspecial}>Specialized in</p>
           <h3 className={S.presentacionfront}>Front-end</h3>
-          {/* <p className={S.presentacionNombre}>Lucas Cencig</p><br />
-          <p className={S.presentacionfull}>Full Stack Web Developer</p><br />
-          <p className={S.presentacionspecial}>Specialized in</p><br />
-          <p className={S.presentacionfront}>Front-End</p> */}
-
 
         </div >
 

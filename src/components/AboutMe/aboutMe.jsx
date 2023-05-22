@@ -5,7 +5,6 @@ import certificado from '../../utils/certificado.jpg'
 import S from '../AboutMe/aboutMe.module.css';
 import Nav from '../NavMenu/NavMenu';
 // import Typical from 'react-typical'
-
 export default function Aboutme() {
   return (
     <div className={S.contenedor}>
@@ -15,11 +14,7 @@ export default function Aboutme() {
         <p className={S.text}>
           Some time ago, the creativity that Web developers gave to their designs today inspired me to a great extent and that is why I began my computer studies of programming and web development, with the intention of dedicating myself to what became my greatest personal passion. Thus, over time, I have been specializing and adapting to the most current styles on the market, in order to capture the interest of a greater volume of customers.
         </p>
-        {/* <Typical
-          loop={Infinity}
-          wrapper="p"
-          steps={["Some time ago, the creativity that Web developers gave to their designs today inspired me to a great extent and that is why I began my computer studies of programming and web development, with the intention of dedicating myself to what became my greatest personal passion. Thus, over time, I have been specializing and adapting to the most current styles on the market, in order to capture the interest of a greater volume of customers.", 5000]}
-        /> */}
+
         <p className={S.text}>
           I have successfully passed a bootcamp called "I am Henry" at a full-time level, developing myself as a Full Stack Developer, carrying out both individual and group projects which gave me the skills and knowledge to carry out work of all kinds, learning the languages ​​mentioned to adapt to the labor market, placing a lot of emphasis on JavaScript and both Front-End and Back-End frameworks.
         </p>
